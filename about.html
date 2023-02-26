@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/cookingworld.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/internationalrecipes.png" alt="International recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="chinese.html" class="nav-link">Chinese Recipes</a>
+          <a href="greek.html" class="nav-link">Greek Recipes</a>
+          <a href="Italian.html" class="nav-link">Italian Recipes</a>
+          <a href="jamaican.html" class="nav-link">Jamaican Recipes</a>
+          <a href="mexican.html" class="nav-link">Mexican Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Explore delicious recipes from around the world </h2>
+          <p>
+            The International Recipes website was started in(whatever date) by Don Buser.
+            Don is a Developer Novice and Foodie. 
+          </p>
+          <p>
+            International Recipes.com presently consists of 25 recipes in 5 different countries( Greece, Italy,
+             Mexico, Jamaica, and China) that Don has hand picked. Please take a moment to peruse these recipes.
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./assets/about.jpeg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Check out these mouthwatering global delights</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/international recipes pictures/chinesehoneywalnutshrimp.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Chinese Honey Walnut Shrimp</h5>
+            <p>Prep : 5min | Cook : 20min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/international recipes pictures/gyro.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Gyros</h5>
+            <p>Prep : 15min | Cook : 15min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/international recipes pictures/mexicansuccotash.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Mexican Succotash</h5>
+            <p>Prep : 15min | Cook : 25min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">International Recipes</span> Built by
+        Don Buser Developer Novice
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
